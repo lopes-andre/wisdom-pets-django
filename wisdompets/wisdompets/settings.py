@@ -55,7 +55,9 @@ ROOT_URLCONF = 'wisdompets.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            '/adoptions/templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
